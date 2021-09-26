@@ -11,11 +11,14 @@ return (
 return (
     <div className="col-4" key={index}>
         <a href={photo.src.original} target="_blank" rel="noreferrer">
-<img src={photo.src.landscape} className="img-fluid"/>
+<img src={photo.src.landscape} className="img-fluid" alt="Search results"/>
 </a>
 </div> 
 ); 
 })}
+<div className="pexels">
+      <a href="https://www.pexels.com" target="_blank" rel="noreferrer">Photos provided by Pexels</a>
+      </div>
 </div>
 </section>
 ); 

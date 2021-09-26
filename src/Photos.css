@@ -2,3 +2,8 @@
   border-radius: 4px;
   margin-bottom: 20px;
 }
+
+a:hover {
+  color: #bae5d5;
+  text-decoration: none;
+}

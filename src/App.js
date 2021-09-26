@@ -15,9 +15,7 @@ function App() {
         </main>
       <footer className="App-footer"> This project was coded by Freya Dawbarn and is {""}
         <a href="https://github.com/fdawbarn/dictionary-project" target="_blank"  rel="noreferrer">open-sourced on Github</a> </footer>
-      <div className="pexels">
-      <a href="https://www.pexels.com" target="_blank" rel="noreferrer">Photos provided by Pexels</a>
-      </div>
+      
       </div>
     </div>
   );
