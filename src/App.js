@@ -11,7 +11,7 @@ function App() {
        
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="plant" />
         </main>
       <footer className="App-footer"> <small> Coded by Freya </small> </footer>
       </div>
