@@ -11,11 +11,15 @@ return (
     <section>
     <h2>{props.results.word} </h2>
     {props.results.phonetics.map(function(phonetic, index) {
+        if (index  < 1) {
         return (
 <div key={index}>
     <Phonetic phonetic={phonetic} />
     </div>
         );
+        } else {
+            return null; 
+        }
     })}
     </section>
     {props.results.meanings.map(function (meaning, index) {
